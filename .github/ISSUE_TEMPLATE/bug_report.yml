@@ -1,0 +1,38 @@
+name: Bug report
+description: Report boundary leakage, parser errors, or Runtime Gate failures.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Usage scenario
+      description: Describe the human input and intended Agent handoff context.
+    validations:
+      required: true
+  - type: textarea
+    id: input
+    attributes:
+      label: Original input
+      description: Paste the original input. Remove sensitive information first.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected layers or gate decision
+      description: What should external_forward, local_execution, memory_candidates, or gate fields have been?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual output
+      description: Paste the generated package or relevant fields.
+    validations:
+      required: true
+  - type: textarea
+    id: regression
+    attributes:
+      label: Regression candidate
+      description: Should this become a regression test? If yes, describe the protected behavior.
