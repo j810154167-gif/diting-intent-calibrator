@@ -14,7 +14,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and
 - References for intent boundaries, Runtime Gate policy, memory writeback policy, human anchor policy, mode policy, examples, and fault cases.
 - Memory template layer for feedback logs, failure cases, regression ledger, and human anchor re-entry prompts.
 - Script entrypoints for parser and Runtime Gate demos.
-- GitHub release preparation files: README, LICENSE, CONTRIBUTING, SECURITY, ROADMAP, CI workflow, issue templates, usage log template, and session handoff.
+- Human-side lifecycle prompt architecture in `prompts/human-lifecycle-prompts.md` for start-of-use filing, periodic governance, and failure repair.
 
 ### Changed
 
