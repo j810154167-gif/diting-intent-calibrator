@@ -12,6 +12,7 @@ Initial public alpha for Diting intent calibrator, the DitingOS human explicit i
 - Memory-candidate writeback guardrails.
 - Context and memory pollution prevention for `external_forward`.
 - Release-hardening tests for metadata, script entrypoints, edge cases, and Runtime Gate behavior.
+- Human-side lifecycle prompt architecture for start-of-use filing, periodic governance, and failure repair.
 
 ### Verification
 
