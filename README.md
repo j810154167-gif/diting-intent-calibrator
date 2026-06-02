@@ -142,6 +142,16 @@ When using it, record:
 
 Use [USAGE_LOG_TEMPLATE.md](USAGE_LOG_TEMPLATE.md) for local usage notes, or open an issue with the bug/feature templates.
 
+## Human-side lifecycle prompts
+
+Use [prompts/human-lifecycle-prompts.md](prompts/human-lifecycle-prompts.md) when driving DitingOS across the full lifecycle:
+
+1. 使用起始流程建档
+2. 周期常态化运维治理
+3. 故障问题检修
+
+These prompts preserve lessons from development, release hardening, GitHub synchronization, Runtime Gate design, memory guardrails, and human-intent misread failures.
+
 ## Current limitations
 
 - Runtime Gate is deterministic and local; it is not yet connected to an external Agent handoff controller.
