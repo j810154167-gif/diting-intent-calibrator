@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a new parser, Runtime Gate, or Skill workflow improvement.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What human intent calibration problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the expected output fields or gate behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example inputs
+      description: Include sample high-density inputs if possible.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - intent parsing
+        - runtime gate
+        - memory candidate policy
+        - skill packaging
+        - documentation
