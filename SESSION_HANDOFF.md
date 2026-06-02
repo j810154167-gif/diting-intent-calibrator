@@ -45,3 +45,4 @@ Expected result: all tests pass.
 - `tests/` is the regression truth source.
 - `references/` holds policy explanations, not executable behavior.
 - `memory/` contains templates and candidate logs, not confirmed durable memory.
+- `prompts/human-lifecycle-prompts.md` contains the human-side full-cycle prompt architecture for start-of-use filing, periodic governance, and failure repair.
